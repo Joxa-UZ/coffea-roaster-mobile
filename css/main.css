@@ -599,9 +599,11 @@ body{
   }
 }
 @media only screen and (min-width: 700px) {
+  .why__box{
+    padding-bottom: 368px;
+  }
   .why__list{
-    /* top: 600px; */
-    bottom: -100px;
+    top: 330px;
     /* max-width: 100%; */
   }
   .why__item{
@@ -645,7 +647,7 @@ body{
     max-width: 540px;
   }
   .why__list{
-    /* top: 0; */
+    top: 500px;
     flex-direction: row;
   }
   .why__item{
