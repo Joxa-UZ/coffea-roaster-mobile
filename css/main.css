@@ -120,10 +120,14 @@ body{
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  letter-spacing: 0.923077px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #83888F;
+  font-family: 'Fraunces';
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
 }
 .nav--active{
   position: absolute;
@@ -238,6 +242,7 @@ body{
 }
 @media only screen and (min-width: 321px) {
   .hero__wrapper{
+    border-radius: 10px;
     /* padding-left: 58px; */
     background-image: url(../images/coffea-mobile-hero-bg.jpg);
     background-repeat: no-repeat;
@@ -247,7 +252,6 @@ body{
     display: flex;
     width: 100%;
     max-width: 390px;
-    margin: 0;
     text-align: center;
   }
   
@@ -266,11 +270,27 @@ body{
       background-image: url(../images/coffea-mobile-hero-bg.jpg);
       background-repeat: no-repeat;
       background-position: calc(50%) calc(50%);
+      border-radius: 15px;
     }
     .hero__wrapper-inner{
       max-width: 279px;
+      margin: 0;
+      margin-right: auto;
+      margin-left: auto;
     }
     
+  }
+  @media only screen and (min-width: 383px) {
+    .hero__wrapper{
+      border-radius: 10px;
+    }
+  }
+  @media only screen and (min-width: 390px) {
+    .hero__wrapper{
+      border-radius: 10px;
+      background-image: url(../images/coffea-mobile-hero-bg.jpg);
+      background-size: cover;
+    }
   }
   @media only screen and (min-width: 400px) {
     .hero__wrapper{
@@ -287,6 +307,16 @@ body{
       max-width: 295px;
       margin: 0;
       text-align: left;
+    }
+    .site-header__link{
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+      color: #83888F;
     }
     
     
