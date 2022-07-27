@@ -828,7 +828,7 @@ body{
   .how__line{
     display: flex;
   }
-
+  
   .how__list{
     /* width: 100%; */
     max-width: 1045px;
@@ -839,7 +839,7 @@ body{
     /* justify-content: center; */
     /* align-items: center; */
   }
-
+  
   .how__item{
     max-width: 223px;
     margin-right: 10px;
@@ -854,8 +854,8 @@ body{
     max-width: 223px;
     text-align: left;
   }
-
-
+  
+  
   .how__link{
     margin: 0;
     text-align: left;
@@ -880,5 +880,97 @@ body{
   .how__itemtheme-box::before{
     margin: 0;
     margin-bottom: 38px;
+  }
+}
+
+
+.site-footer{
+  padding-top: 140px;
+}
+
+.site-footer__box{
+  display: flex;
+  padding-top: 54px;
+  padding-right: 54px;
+  padding-bottom: 54px;
+  padding-left: 55px;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2C343E;
+}
+.site-footer__boxstart{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.site-footer__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  max-width: 122px;
+  margin: 0;
+  margin-top: 48px;
+  margin-bottom: 49px;
+  padding: 0;
+  list-style: none;
+}
+.site-footer__item{
+  margin-bottom: 24px;
+}
+.site-footer__item:last-child{
+  margin-bottom: 0;
+}
+.site-footer__link{
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.site-footer__social{
+  display: flex;
+  width: 100%;
+  max-width: 120px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .site-footer__list{
+    width: 100%;
+    max-width: 283px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .site-footer__item{
+    margin-bottom: 0;
+    margin-right: 32px;
+  }
+  .site-footer__item:last-child{
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .site-footer__box{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 88px;
+  }
+  .site-footer__boxstart{
+    flex-direction: row;
+  }
+  .site-footer__boxstart > img{
+    margin-right: 103px;
   }
 }
